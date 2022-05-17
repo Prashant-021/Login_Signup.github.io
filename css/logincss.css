@@ -1,0 +1,55 @@
+body{
+    background: url("../img/victor-freitas-WvDYdXDzkhs-unsplash.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1{
+    background-color: rgb(255 255 255 / 70%);
+    box-shadow: 5px 10px 18px #3e3d3d;
+    width: auto;
+    border-radius: 15px;
+}
+
+.box1 .heading{
+    display: flex;
+    justify-content: center;
+}
+
+.box1 .logoimg{
+    height: 100%;
+    width: auto;
+}
+
+.box1 input{
+    border-radius: 50px;
+    background: #ffffe2;
+}
+
+.box1 .Button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.box1 button{
+    border-radius: 50px;
+    width: 40%;
+}
+.btn{
+	box-shadow: none !important;
+    background: #aa9c71;
+    color: black;
+
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
